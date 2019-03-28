@@ -1,0 +1,1161 @@
+DEBUG 2019-03-28 21:50:59,790 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-28 21:50:59,803 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2019-03-28 21:50:59,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.WebSpaAngular.SimpleTaskSystemWebModule, SimpleTaskSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 21:50:59,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemDataModule, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 21:50:59,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemCoreModule, SimpleTaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 21:50:59,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 21:50:59,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 21:50:59,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 21:50:59,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemWebApiModule, SimpleTaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 21:50:59,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 21:50:59,812 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 21:50:59,812 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 21:50:59,812 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemApplicationModule, SimpleTaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 21:50:59,812 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 21:50:59,812 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 21:50:59,815 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2019-03-28 21:51:00,091 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem.EntityFramework.SimpleTaskSystemDbContext, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 21:51:02,202 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-28 21:51:02,231 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-28 21:51:02,233 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-28 21:51:02,251 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem
+DEBUG 2019-03-28 21:51:02,429 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-28 21:51:02,455 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.Tasks.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2019-03-28 21:51:02,456 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+DEBUG 2019-03-28 21:51:02,521 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2019-03-28 21:51:02,521 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+WARN  2019-03-28 21:51:02,968 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2019-03-28 21:51:02,999 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+INFO  2019-03-28 21:51:48,761 [14   ] SimpleTaskSystem.Tasks.TaskAppService    - Creating a task for input: [CreateTaskInput > AssignedPersonId = 1, Description = abc]
+INFO  2019-03-28 21:51:51,197 [11   ] SimpleTaskSystem.Tasks.TaskAppService    - Updating a task for input: [UpdateTaskInput > TaskId = 1, AssignedPersonId = , State = Completed]
+DEBUG 2019-03-28 22:00:37,381 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-28 22:00:37,393 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2019-03-28 22:00:37,397 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.WebSpaAngular.SimpleTaskSystemWebModule, SimpleTaskSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:00:37,398 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemDataModule, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:00:37,398 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemCoreModule, SimpleTaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:00:37,399 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:00:37,399 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:00:37,399 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:00:37,399 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemWebApiModule, SimpleTaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:00:37,399 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:00:37,399 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:00:37,399 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:00:37,399 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemApplicationModule, SimpleTaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:00:37,399 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:00:37,399 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:00:37,401 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2019-03-28 22:00:37,644 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem.EntityFramework.SimpleTaskSystemDbContext, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:00:39,100 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-28 22:00:39,124 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-28 22:00:39,134 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-28 22:00:39,151 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem
+DEBUG 2019-03-28 22:00:39,290 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-28 22:00:39,309 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.Tasks.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2019-03-28 22:00:39,310 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+DEBUG 2019-03-28 22:00:39,358 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2019-03-28 22:00:39,358 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+WARN  2019-03-28 22:00:44,087 [14   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2019-03-28 22:00:44,120 [14   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+INFO  2019-03-28 22:01:06,376 [11   ] SimpleTaskSystem.Tasks.TaskAppService    - Creating a task for input: [CreateTaskInput > AssignedPersonId = , Description = fff]
+DEBUG 2019-03-28 22:22:40,769 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-28 22:22:40,780 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2019-03-28 22:22:40,786 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.WebSpaAngular.SimpleTaskSystemWebModule, SimpleTaskSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:22:40,787 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemDataModule, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:22:40,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemCoreModule, SimpleTaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:22:40,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:22:40,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:22:40,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:22:40,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemWebApiModule, SimpleTaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:22:40,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:22:40,789 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:22:40,789 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:22:40,789 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemApplicationModule, SimpleTaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:22:40,789 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:22:40,789 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:22:40,792 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+FATAL 2019-03-28 22:22:40,879 [1    ] Abp.AbpBootstrapper                      - System.IO.FileLoadException: Could not load file or assembly 'System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimeMethodInfo.FetchNonReturnParameters()
+   at System.Reflection.RuntimeMethodInfo.GetParametersNoCopy()
+   at System.Reflection.RuntimePropertyInfo.GetIndexParametersNoCopy()
+   at System.Reflection.RuntimePropertyInfo.GetIndexParameters()
+   at Castle.MicroKernel.ModelBuilder.Inspectors.PropertiesDependenciesModelInspector.HasParameters(PropertyInfo property)
+   at Castle.MicroKernel.ModelBuilder.Inspectors.PropertiesDependenciesModelInspector.IsValidPropertyDependency(PropertyInfo property)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Castle.MicroKernel.ModelBuilder.Inspectors.PropertiesDependenciesModelInspector.GetProperties(ComponentModel model, Type targetType)
+   at Castle.MicroKernel.ModelBuilder.Inspectors.PropertiesDependenciesModelInspector.InspectProperties(ComponentModel model)
+   at Castle.MicroKernel.ModelBuilder.Inspectors.PropertiesDependenciesModelInspector.ProcessModel(IKernel kernel, ComponentModel model)
+   at Castle.MicroKernel.ModelBuilder.DefaultComponentModelBuilder.<>c__DisplayClass7_0.<BuildModel>b__1(IContributeComponentModelConstruction c)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Castle.MicroKernel.ModelBuilder.DefaultComponentModelBuilder.BuildModel(IComponentModelDescriptor[] customContributors)
+   at Castle.MicroKernel.Registration.ComponentRegistration`1.Castle.MicroKernel.Registration.IRegistration.Register(IKernelInternal kernel)
+   at Castle.MicroKernel.DefaultKernel.Register(IRegistration[] registrations)
+   at Castle.Windsor.WindsorContainer.Register(IRegistration[] registrations)
+   at Abp.Dependency.IocManager.Register[TType,TImpl](DependencyLifeStyle lifeStyle)
+   at Abp.WebApi.AbpWebApiModule.PreInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_0(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp.Web.Api, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.Web.Http.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.Web.Http/System.Web.Http.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/System.Web.Http.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Build Number
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+System.IO.FileLoadException: Could not load file or assembly 'System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimeMethodInfo.FetchNonReturnParameters()
+   at System.Reflection.RuntimeMethodInfo.GetParametersNoCopy()
+   at System.Reflection.RuntimePropertyInfo.GetIndexParametersNoCopy()
+   at System.Reflection.RuntimePropertyInfo.GetIndexParameters()
+   at Castle.MicroKernel.ModelBuilder.Inspectors.PropertiesDependenciesModelInspector.HasParameters(PropertyInfo property)
+   at Castle.MicroKernel.ModelBuilder.Inspectors.PropertiesDependenciesModelInspector.IsValidPropertyDependency(PropertyInfo property)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Castle.MicroKernel.ModelBuilder.Inspectors.PropertiesDependenciesModelInspector.GetProperties(ComponentModel model, Type targetType)
+   at Castle.MicroKernel.ModelBuilder.Inspectors.PropertiesDependenciesModelInspector.InspectProperties(ComponentModel model)
+   at Castle.MicroKernel.ModelBuilder.Inspectors.PropertiesDependenciesModelInspector.ProcessModel(IKernel kernel, ComponentModel model)
+   at Castle.MicroKernel.ModelBuilder.DefaultComponentModelBuilder.<>c__DisplayClass7_0.<BuildModel>b__1(IContributeComponentModelConstruction c)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Castle.MicroKernel.ModelBuilder.DefaultComponentModelBuilder.BuildModel(IComponentModelDescriptor[] customContributors)
+   at Castle.MicroKernel.Registration.ComponentRegistration`1.Castle.MicroKernel.Registration.IRegistration.Register(IKernelInternal kernel)
+   at Castle.MicroKernel.DefaultKernel.Register(IRegistration[] registrations)
+   at Castle.Windsor.WindsorContainer.Register(IRegistration[] registrations)
+   at Abp.Dependency.IocManager.Register[TType,TImpl](DependencyLifeStyle lifeStyle)
+   at Abp.WebApi.AbpWebApiModule.PreInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_0(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp.Web.Api, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.Web.Http.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.Web.Http/System.Web.Http.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/System.Web.Http.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Build Number
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+DEBUG 2019-03-28 22:22:50,980 [5    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-03-28 22:25:19,640 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-28 22:25:19,653 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2019-03-28 22:25:19,659 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.WebSpaAngular.SimpleTaskSystemWebModule, SimpleTaskSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:25:19,660 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemDataModule, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:25:19,660 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemCoreModule, SimpleTaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:25:19,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:25:19,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:25:19,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:25:19,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemWebApiModule, SimpleTaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:25:19,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:25:19,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:25:19,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:25:19,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemApplicationModule, SimpleTaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:25:19,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:25:19,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:25:19,665 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+FATAL 2019-03-28 22:25:20,012 [1    ] Abp.AbpBootstrapper                      - System.IO.FileLoadException: Could not load file or assembly 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'
+   at System.Reflection.RuntimeAssembly.GetExportedTypes(RuntimeAssembly assembly, ObjectHandleOnStack retTypes)
+   at System.Reflection.RuntimeAssembly.GetExportedTypes()
+   at Castle.Core.Internal.ReflectionUtil.GetAvailableTypes(Assembly assembly, Boolean includeNonExported)
+   at Castle.Core.Internal.ReflectionUtil.GetAvailableTypesOrdered(Assembly assembly, Boolean includeNonExported)
+   at Castle.MicroKernel.Registration.FromAssemblyDescriptor.<SelectedTypes>b__5_0(Assembly a)
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at Castle.MicroKernel.Registration.FromDescriptor.Castle.MicroKernel.Registration.IRegistration.Register(IKernelInternal kernel)
+   at Castle.MicroKernel.Registration.BasedOnDescriptor.Castle.MicroKernel.Registration.IRegistration.Register(IKernelInternal kernel)
+   at Castle.MicroKernel.DefaultKernel.Register(IRegistration[] registrations)
+   at Castle.Windsor.WindsorContainer.Register(IRegistration[] registrations)
+   at Abp.WebApi.Controllers.ApiControllerConventionalRegistrar.RegisterAssembly(IConventionalRegistrationContext context)
+   at Abp.Dependency.IocManager.RegisterAssemblyByConvention(Assembly assembly, ConventionalRegistrationConfig config)
+   at Abp.AbpKernelModule.Initialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_1(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/Newtonsoft.Json.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/Newtonsoft.Json/Newtonsoft.Json.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/Newtonsoft.Json.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Major Version
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+System.IO.FileLoadException: Could not load file or assembly 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'
+   at System.Reflection.RuntimeAssembly.GetExportedTypes(RuntimeAssembly assembly, ObjectHandleOnStack retTypes)
+   at System.Reflection.RuntimeAssembly.GetExportedTypes()
+   at Castle.Core.Internal.ReflectionUtil.GetAvailableTypes(Assembly assembly, Boolean includeNonExported)
+   at Castle.Core.Internal.ReflectionUtil.GetAvailableTypesOrdered(Assembly assembly, Boolean includeNonExported)
+   at Castle.MicroKernel.Registration.FromAssemblyDescriptor.<SelectedTypes>b__5_0(Assembly a)
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at Castle.MicroKernel.Registration.FromDescriptor.Castle.MicroKernel.Registration.IRegistration.Register(IKernelInternal kernel)
+   at Castle.MicroKernel.Registration.BasedOnDescriptor.Castle.MicroKernel.Registration.IRegistration.Register(IKernelInternal kernel)
+   at Castle.MicroKernel.DefaultKernel.Register(IRegistration[] registrations)
+   at Castle.Windsor.WindsorContainer.Register(IRegistration[] registrations)
+   at Abp.WebApi.Controllers.ApiControllerConventionalRegistrar.RegisterAssembly(IConventionalRegistrationContext context)
+   at Abp.Dependency.IocManager.RegisterAssemblyByConvention(Assembly assembly, ConventionalRegistrationConfig config)
+   at Abp.AbpKernelModule.Initialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_1(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/Newtonsoft.Json.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/Newtonsoft.Json/Newtonsoft.Json.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/Newtonsoft.Json.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Major Version
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+DEBUG 2019-03-28 22:25:30,090 [7    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-03-28 22:25:30,092 [7    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-03-28 22:26:25,263 [14   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-28 22:26:25,584 [14   ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2019-03-28 22:26:25,590 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.WebSpaAngular.SimpleTaskSystemWebModule, SimpleTaskSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:26:25,592 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemDataModule, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:26:25,592 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemCoreModule, SimpleTaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:26:25,593 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:26:25,593 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:26:25,593 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:26:25,593 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemWebApiModule, SimpleTaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:26:25,594 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:26:25,594 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:26:25,594 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:26:25,594 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemApplicationModule, SimpleTaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:26:25,594 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:26:25,594 [14   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:26:25,597 [14   ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+FATAL 2019-03-28 22:26:26,060 [14   ] Abp.AbpBootstrapper                      - System.IO.FileLoadException: Could not load file or assembly 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'
+   at System.Reflection.RuntimeAssembly.GetExportedTypes(RuntimeAssembly assembly, ObjectHandleOnStack retTypes)
+   at System.Reflection.RuntimeAssembly.GetExportedTypes()
+   at Castle.Core.Internal.ReflectionUtil.GetAvailableTypes(Assembly assembly, Boolean includeNonExported)
+   at Castle.Core.Internal.ReflectionUtil.GetAvailableTypesOrdered(Assembly assembly, Boolean includeNonExported)
+   at Castle.MicroKernel.Registration.FromAssemblyDescriptor.<SelectedTypes>b__5_0(Assembly a)
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at Castle.MicroKernel.Registration.FromDescriptor.Castle.MicroKernel.Registration.IRegistration.Register(IKernelInternal kernel)
+   at Castle.MicroKernel.Registration.BasedOnDescriptor.Castle.MicroKernel.Registration.IRegistration.Register(IKernelInternal kernel)
+   at Castle.MicroKernel.DefaultKernel.Register(IRegistration[] registrations)
+   at Castle.Windsor.WindsorContainer.Register(IRegistration[] registrations)
+   at Abp.WebApi.Controllers.ApiControllerConventionalRegistrar.RegisterAssembly(IConventionalRegistrationContext context)
+   at Abp.Dependency.IocManager.RegisterAssemblyByConvention(Assembly assembly, ConventionalRegistrationConfig config)
+   at Abp.AbpKernelModule.Initialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_1(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/Newtonsoft.Json.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/Newtonsoft.Json/Newtonsoft.Json.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/Newtonsoft.Json.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Major Version
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+System.IO.FileLoadException: Could not load file or assembly 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'
+   at System.Reflection.RuntimeAssembly.GetExportedTypes(RuntimeAssembly assembly, ObjectHandleOnStack retTypes)
+   at System.Reflection.RuntimeAssembly.GetExportedTypes()
+   at Castle.Core.Internal.ReflectionUtil.GetAvailableTypes(Assembly assembly, Boolean includeNonExported)
+   at Castle.Core.Internal.ReflectionUtil.GetAvailableTypesOrdered(Assembly assembly, Boolean includeNonExported)
+   at Castle.MicroKernel.Registration.FromAssemblyDescriptor.<SelectedTypes>b__5_0(Assembly a)
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at Castle.MicroKernel.Registration.FromDescriptor.Castle.MicroKernel.Registration.IRegistration.Register(IKernelInternal kernel)
+   at Castle.MicroKernel.Registration.BasedOnDescriptor.Castle.MicroKernel.Registration.IRegistration.Register(IKernelInternal kernel)
+   at Castle.MicroKernel.DefaultKernel.Register(IRegistration[] registrations)
+   at Castle.Windsor.WindsorContainer.Register(IRegistration[] registrations)
+   at Abp.WebApi.Controllers.ApiControllerConventionalRegistrar.RegisterAssembly(IConventionalRegistrationContext context)
+   at Abp.Dependency.IocManager.RegisterAssemblyByConvention(Assembly assembly, ConventionalRegistrationConfig config)
+   at Abp.AbpKernelModule.Initialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_1(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/Newtonsoft.Json.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/Newtonsoft.Json/Newtonsoft.Json.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/Newtonsoft.Json.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Major Version
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+DEBUG 2019-03-28 22:26:36,126 [5    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-03-28 22:26:36,127 [5    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-03-28 22:28:55,476 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-28 22:28:55,490 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2019-03-28 22:28:55,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.WebSpaAngular.SimpleTaskSystemWebModule, SimpleTaskSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:28:55,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemDataModule, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:28:55,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemCoreModule, SimpleTaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:28:55,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:28:55,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:28:55,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:28:55,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemWebApiModule, SimpleTaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:28:55,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:28:55,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:28:55,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:28:55,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemApplicationModule, SimpleTaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:28:55,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:28:55,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:28:55,504 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+FATAL 2019-03-28 22:28:55,875 [1    ] Abp.AbpBootstrapper                      - System.IO.FileLoadException: Could not load file or assembly 'System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at Abp.Modules.AbpModuleManager.get_Modules()
+   at Abp.Reflection.AbpAssemblyFinder.GetAllAssemblies()
+   at Abp.Reflection.TypeFinder.CreateTypeList()
+   at Abp.Reflection.TypeFinder.GetAllTypes()
+   at Abp.Reflection.TypeFinder.Find(Func`2 predicate)
+   at Abp.EntityFramework.AbpEntityFrameworkModule.RegisterGenericRepositoriesAndMatchDbContexes()
+   at Abp.EntityFramework.AbpEntityFrameworkModule.Initialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_1(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.Collections.Immutable.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.Collections.Immutable/System.Collections.Immutable.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/System.Collections.Immutable.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Build Number
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+System.IO.FileLoadException: Could not load file or assembly 'System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at Abp.Modules.AbpModuleManager.get_Modules()
+   at Abp.Reflection.AbpAssemblyFinder.GetAllAssemblies()
+   at Abp.Reflection.TypeFinder.CreateTypeList()
+   at Abp.Reflection.TypeFinder.GetAllTypes()
+   at Abp.Reflection.TypeFinder.Find(Func`2 predicate)
+   at Abp.EntityFramework.AbpEntityFrameworkModule.RegisterGenericRepositoriesAndMatchDbContexes()
+   at Abp.EntityFramework.AbpEntityFrameworkModule.Initialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_1(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.Collections.Immutable.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.Collections.Immutable/System.Collections.Immutable.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/System.Collections.Immutable.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Build Number
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+DEBUG 2019-03-28 22:29:05,964 [7    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-03-28 22:29:05,966 [7    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-03-28 22:32:52,542 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-28 22:32:52,554 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2019-03-28 22:32:52,561 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.WebSpaAngular.SimpleTaskSystemWebModule, SimpleTaskSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:32:52,563 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemDataModule, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:32:52,564 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemCoreModule, SimpleTaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:32:52,564 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:32:52,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:32:52,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:32:52,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemWebApiModule, SimpleTaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:32:52,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:32:52,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:32:52,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:32:52,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemApplicationModule, SimpleTaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:32:52,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:32:52,565 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:32:52,568 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+FATAL 2019-03-28 22:32:52,921 [1    ] Abp.AbpBootstrapper                      - System.IO.FileLoadException: Could not load file or assembly 'System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at Abp.Modules.AbpModuleManager.get_Modules()
+   at Abp.Reflection.AbpAssemblyFinder.GetAllAssemblies()
+   at Abp.Reflection.TypeFinder.CreateTypeList()
+   at Abp.Reflection.TypeFinder.GetAllTypes()
+   at Abp.Reflection.TypeFinder.Find(Func`2 predicate)
+   at Abp.EntityFramework.AbpEntityFrameworkModule.RegisterGenericRepositoriesAndMatchDbContexes()
+   at Abp.EntityFramework.AbpEntityFrameworkModule.Initialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_1(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.Collections.Immutable.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.Collections.Immutable/System.Collections.Immutable.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/System.Collections.Immutable.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Build Number
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+System.IO.FileLoadException: Could not load file or assembly 'System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at Abp.Modules.AbpModuleManager.get_Modules()
+   at Abp.Reflection.AbpAssemblyFinder.GetAllAssemblies()
+   at Abp.Reflection.TypeFinder.CreateTypeList()
+   at Abp.Reflection.TypeFinder.GetAllTypes()
+   at Abp.Reflection.TypeFinder.Find(Func`2 predicate)
+   at Abp.EntityFramework.AbpEntityFrameworkModule.RegisterGenericRepositoriesAndMatchDbContexes()
+   at Abp.EntityFramework.AbpEntityFrameworkModule.Initialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_1(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.Collections.Immutable.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.Collections.Immutable/System.Collections.Immutable.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/System.Collections.Immutable.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Build Number
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+DEBUG 2019-03-28 22:34:12,306 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-28 22:34:12,317 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2019-03-28 22:34:12,322 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.WebSpaAngular.SimpleTaskSystemWebModule, SimpleTaskSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:34:12,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemDataModule, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:34:12,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemCoreModule, SimpleTaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:34:12,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:34:12,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:34:12,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:34:12,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemWebApiModule, SimpleTaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:34:12,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:34:12,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:34:12,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:34:12,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemApplicationModule, SimpleTaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:34:12,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:34:12,326 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:34:12,328 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+FATAL 2019-03-28 22:34:12,671 [1    ] Abp.AbpBootstrapper                      - System.IO.FileLoadException: Could not load file or assembly 'System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at Abp.Modules.AbpModuleManager.get_Modules()
+   at Abp.Reflection.AbpAssemblyFinder.GetAllAssemblies()
+   at Abp.Reflection.TypeFinder.CreateTypeList()
+   at Abp.Reflection.TypeFinder.GetAllTypes()
+   at Abp.Reflection.TypeFinder.Find(Func`2 predicate)
+   at Abp.EntityFramework.AbpEntityFrameworkModule.RegisterGenericRepositoriesAndMatchDbContexes()
+   at Abp.EntityFramework.AbpEntityFrameworkModule.Initialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_1(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.Collections.Immutable.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.Collections.Immutable/System.Collections.Immutable.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/System.Collections.Immutable.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Build Number
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+System.IO.FileLoadException: Could not load file or assembly 'System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at Abp.Modules.AbpModuleManager.get_Modules()
+   at Abp.Reflection.AbpAssemblyFinder.GetAllAssemblies()
+   at Abp.Reflection.TypeFinder.CreateTypeList()
+   at Abp.Reflection.TypeFinder.GetAllTypes()
+   at Abp.Reflection.TypeFinder.Find(Func`2 predicate)
+   at Abp.EntityFramework.AbpEntityFrameworkModule.RegisterGenericRepositoriesAndMatchDbContexes()
+   at Abp.EntityFramework.AbpEntityFrameworkModule.Initialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_1(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.Collections.Immutable.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.Collections.Immutable/System.Collections.Immutable.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/System.Collections.Immutable.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Build Number
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+DEBUG 2019-03-28 22:34:22,755 [7    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-03-28 22:34:22,756 [7    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-03-28 22:36:14,489 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-28 22:36:14,500 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2019-03-28 22:36:14,505 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.WebSpaAngular.SimpleTaskSystemWebModule, SimpleTaskSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:36:14,506 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemDataModule, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:36:14,506 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemCoreModule, SimpleTaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:36:14,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:36:14,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:36:14,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:36:14,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemWebApiModule, SimpleTaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:36:14,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:36:14,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:36:14,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:36:14,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemApplicationModule, SimpleTaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:36:14,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:36:14,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:36:14,510 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2019-03-28 22:36:14,769 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem.EntityFramework.SimpleTaskSystemDbContext, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:36:16,255 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-28 22:36:16,313 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-28 22:36:16,319 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-28 22:36:16,320 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem
+DEBUG 2019-03-28 22:36:16,615 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-03-28 22:36:16,638 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.Tasks.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2019-03-28 22:36:16,639 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+DEBUG 2019-03-28 22:36:16,696 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2019-03-28 22:36:16,696 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2019-03-28 22:48:35,590 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-28 22:48:35,603 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2019-03-28 22:48:35,611 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.WebSpaAngular.SimpleTaskSystemWebModule, SimpleTaskSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:48:35,613 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemDataModule, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:48:35,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemCoreModule, SimpleTaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:48:35,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:48:35,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:48:35,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:48:35,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemWebApiModule, SimpleTaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:48:35,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:48:35,614 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:48:35,615 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:48:35,615 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemApplicationModule, SimpleTaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:48:35,615 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:48:35,615 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:48:35,618 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2019-03-28 22:48:35,952 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem.EntityFramework.SimpleTaskSystemDbContext, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:48:37,528 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-28 22:48:37,580 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-28 22:48:37,597 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-28 22:48:37,598 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem
+DEBUG 2019-03-28 22:48:37,765 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-03-28 22:48:37,792 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.Tasks.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2019-03-28 22:48:37,793 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+FATAL 2019-03-28 22:48:37,920 [1    ] Abp.AbpBootstrapper                      - System.IO.FileLoadException: Could not load file or assembly 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly& lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at System.Attribute.IsDefined(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.IsDefined(MemberInfo element, Type attributeType)
+   at Abp.AutoMapper.AbpAutoMapperModule.<>c.<FindAndAutoMapTypes>b__7_0(Type type)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Abp.Reflection.TypeFinder.Find(Func`2 predicate)
+   at Abp.AutoMapper.AbpAutoMapperModule.FindAndAutoMapTypes(IMapperConfigurationExpression configuration)
+   at Abp.AutoMapper.AbpAutoMapperModule.<CreateMappings>b__6_0(IMapperConfigurationExpression configuration)
+   at AutoMapper.MapperConfiguration.Build(Action`1 configure)
+   at AutoMapper.Mapper.Initialize(Action`1 config)
+   at Abp.AutoMapper.AbpAutoMapperModule.CreateMappings()
+   at Abp.AutoMapper.AbpAutoMapperModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Redirect found in application configuration file: 4.2.0.0 redirected to 4.2.0.0.
+LOG: Post-policy reference: System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.ComponentModel.Annotations.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.ComponentModel.Annotations/System.ComponentModel.Annotations.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/System.ComponentModel.Annotations.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Build Number
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+System.IO.FileLoadException: Could not load file or assembly 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly& lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at System.Attribute.IsDefined(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.IsDefined(MemberInfo element, Type attributeType)
+   at Abp.AutoMapper.AbpAutoMapperModule.<>c.<FindAndAutoMapTypes>b__7_0(Type type)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Abp.Reflection.TypeFinder.Find(Func`2 predicate)
+   at Abp.AutoMapper.AbpAutoMapperModule.FindAndAutoMapTypes(IMapperConfigurationExpression configuration)
+   at Abp.AutoMapper.AbpAutoMapperModule.<CreateMappings>b__6_0(IMapperConfigurationExpression configuration)
+   at AutoMapper.MapperConfiguration.Build(Action`1 configure)
+   at AutoMapper.Mapper.Initialize(Action`1 config)
+   at Abp.AutoMapper.AbpAutoMapperModule.CreateMappings()
+   at Abp.AutoMapper.AbpAutoMapperModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Redirect found in application configuration file: 4.2.0.0 redirected to 4.2.0.0.
+LOG: Post-policy reference: System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.ComponentModel.Annotations.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.ComponentModel.Annotations/System.ComponentModel.Annotations.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/System.ComponentModel.Annotations.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Build Number
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+DEBUG 2019-03-28 22:48:48,011 [8    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-03-28 22:48:48,013 [8    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-03-28 22:48:48,014 [8    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-03-28 22:48:48,014 [8    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-03-28 22:51:55,524 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-28 22:51:55,535 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2019-03-28 22:51:55,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.WebSpaAngular.SimpleTaskSystemWebModule, SimpleTaskSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:51:55,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemDataModule, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:51:55,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemCoreModule, SimpleTaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:51:55,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:51:55,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:51:55,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:51:55,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemWebApiModule, SimpleTaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:51:55,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:51:55,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:51:55,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:51:55,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemApplicationModule, SimpleTaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:51:55,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:51:55,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:51:55,546 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2019-03-28 22:51:55,778 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem.EntityFramework.SimpleTaskSystemDbContext, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:51:57,416 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-28 22:51:57,469 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-28 22:51:57,476 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-28 22:51:57,477 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem
+DEBUG 2019-03-28 22:51:57,666 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-03-28 22:51:57,688 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.Tasks.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2019-03-28 22:51:57,689 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+FATAL 2019-03-28 22:51:57,809 [1    ] Abp.AbpBootstrapper                      - System.IO.FileLoadException: Could not load file or assembly 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly& lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at System.Attribute.IsDefined(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.IsDefined(MemberInfo element, Type attributeType)
+   at Abp.AutoMapper.AbpAutoMapperModule.<>c.<FindAndAutoMapTypes>b__7_0(Type type)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Abp.Reflection.TypeFinder.Find(Func`2 predicate)
+   at Abp.AutoMapper.AbpAutoMapperModule.FindAndAutoMapTypes(IMapperConfigurationExpression configuration)
+   at Abp.AutoMapper.AbpAutoMapperModule.<CreateMappings>b__6_0(IMapperConfigurationExpression configuration)
+   at AutoMapper.MapperConfiguration.Build(Action`1 configure)
+   at AutoMapper.Mapper.Initialize(Action`1 config)
+   at Abp.AutoMapper.AbpAutoMapperModule.CreateMappings()
+   at Abp.AutoMapper.AbpAutoMapperModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Redirect found in application configuration file: 4.2.0.0 redirected to 4.2.0.0.
+LOG: Post-policy reference: System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.ComponentModel.Annotations.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.ComponentModel.Annotations/System.ComponentModel.Annotations.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/System.ComponentModel.Annotations.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Build Number
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+System.IO.FileLoadException: Could not load file or assembly 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly& lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at System.Attribute.IsDefined(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.IsDefined(MemberInfo element, Type attributeType)
+   at Abp.AutoMapper.AbpAutoMapperModule.<>c.<FindAndAutoMapTypes>b__7_0(Type type)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Abp.Reflection.TypeFinder.Find(Func`2 predicate)
+   at Abp.AutoMapper.AbpAutoMapperModule.FindAndAutoMapTypes(IMapperConfigurationExpression configuration)
+   at Abp.AutoMapper.AbpAutoMapperModule.<CreateMappings>b__6_0(IMapperConfigurationExpression configuration)
+   at AutoMapper.MapperConfiguration.Build(Action`1 configure)
+   at AutoMapper.Mapper.Initialize(Action`1 config)
+   at Abp.AutoMapper.AbpAutoMapperModule.CreateMappings()
+   at Abp.AutoMapper.AbpAutoMapperModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Redirect found in application configuration file: 4.2.0.0 redirected to 4.2.0.0.
+LOG: Post-policy reference: System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.ComponentModel.Annotations.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.ComponentModel.Annotations/System.ComponentModel.Annotations.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/System.ComponentModel.Annotations.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Build Number
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+DEBUG 2019-03-28 22:52:18,184 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-28 22:52:18,197 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2019-03-28 22:52:18,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.WebSpaAngular.SimpleTaskSystemWebModule, SimpleTaskSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:52:18,204 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemDataModule, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:52:18,204 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemCoreModule, SimpleTaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:52:18,204 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:52:18,204 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:52:18,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:52:18,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemWebApiModule, SimpleTaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:52:18,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:52:18,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:52:18,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:52:18,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemApplicationModule, SimpleTaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:52:18,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:52:18,206 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:52:18,208 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2019-03-28 22:52:18,568 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem.EntityFramework.SimpleTaskSystemDbContext, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:52:20,578 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-28 22:52:20,631 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-28 22:52:20,648 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-28 22:52:20,649 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem
+DEBUG 2019-03-28 22:52:20,859 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-03-28 22:52:20,888 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.Tasks.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2019-03-28 22:52:20,889 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+FATAL 2019-03-28 22:52:21,023 [1    ] Abp.AbpBootstrapper                      - System.IO.FileLoadException: Could not load file or assembly 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly& lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at System.Attribute.IsDefined(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.IsDefined(MemberInfo element, Type attributeType)
+   at Abp.AutoMapper.AbpAutoMapperModule.<>c.<FindAndAutoMapTypes>b__7_0(Type type)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Abp.Reflection.TypeFinder.Find(Func`2 predicate)
+   at Abp.AutoMapper.AbpAutoMapperModule.FindAndAutoMapTypes(IMapperConfigurationExpression configuration)
+   at Abp.AutoMapper.AbpAutoMapperModule.<CreateMappings>b__6_0(IMapperConfigurationExpression configuration)
+   at AutoMapper.MapperConfiguration.Build(Action`1 configure)
+   at AutoMapper.Mapper.Initialize(Action`1 config)
+   at Abp.AutoMapper.AbpAutoMapperModule.CreateMappings()
+   at Abp.AutoMapper.AbpAutoMapperModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Redirect found in application configuration file: 4.2.0.0 redirected to 4.2.0.0.
+LOG: Post-policy reference: System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.ComponentModel.Annotations.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.ComponentModel.Annotations/System.ComponentModel.Annotations.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/System.ComponentModel.Annotations.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Build Number
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+System.IO.FileLoadException: Could not load file or assembly 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+   at System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly& lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at System.Attribute.IsDefined(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.IsDefined(MemberInfo element, Type attributeType)
+   at Abp.AutoMapper.AbpAutoMapperModule.<>c.<FindAndAutoMapTypes>b__7_0(Type type)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Abp.Reflection.TypeFinder.Find(Func`2 predicate)
+   at Abp.AutoMapper.AbpAutoMapperModule.FindAndAutoMapTypes(IMapperConfigurationExpression configuration)
+   at Abp.AutoMapper.AbpAutoMapperModule.<CreateMappings>b__6_0(IMapperConfigurationExpression configuration)
+   at AutoMapper.MapperConfiguration.Build(Action`1 configure)
+   at AutoMapper.Mapper.Initialize(Action`1 config)
+   at Abp.AutoMapper.AbpAutoMapperModule.CreateMappings()
+   at Abp.AutoMapper.AbpAutoMapperModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Redirect found in application configuration file: 4.2.0.0 redirected to 4.2.0.0.
+LOG: Post-policy reference: System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.ComponentModel.Annotations.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.ComponentModel.Annotations/System.ComponentModel.Annotations.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/System.ComponentModel.Annotations.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Build Number
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+DEBUG 2019-03-28 22:52:31,116 [7    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-03-28 22:52:31,118 [7    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-03-28 22:52:31,119 [7    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-03-28 22:52:31,119 [7    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-03-28 22:53:14,148 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-28 22:53:14,160 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2019-03-28 22:53:14,166 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.WebSpaAngular.SimpleTaskSystemWebModule, SimpleTaskSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:53:14,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemDataModule, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:53:14,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemCoreModule, SimpleTaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:53:14,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:53:14,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:53:14,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:53:14,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemWebApiModule, SimpleTaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:53:14,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:53:14,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:53:14,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:53:14,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemApplicationModule, SimpleTaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:53:14,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:53:14,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:53:14,173 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2019-03-28 22:53:14,448 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem.EntityFramework.SimpleTaskSystemDbContext, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 22:53:16,063 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-28 22:53:16,127 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-28 22:53:16,132 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-28 22:53:16,134 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem
+DEBUG 2019-03-28 22:53:16,299 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-03-28 22:53:16,320 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.Tasks.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2019-03-28 22:53:16,321 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+FATAL 2019-03-28 22:53:16,431 [1    ] Abp.AbpBootstrapper                      - System.IO.FileLoadException: Could not load file or assembly 'System.ComponentModel.Annotations, Version=4.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.ComponentModel.Annotations, Version=4.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' ---> System.IO.FileLoadException: Could not load file or assembly 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Redirect found in application configuration file: 4.2.0.0 redirected to 4.5.0.0.
+LOG: Post-policy reference: System.ComponentModel.Annotations, Version=4.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.ComponentModel.Annotations.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.ComponentModel.Annotations/System.ComponentModel.Annotations.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/System.ComponentModel.Annotations.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Minor Version
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+   at System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly& lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at System.Attribute.IsDefined(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.IsDefined(MemberInfo element, Type attributeType)
+   at Abp.AutoMapper.AbpAutoMapperModule.<>c.<FindAndAutoMapTypes>b__7_0(Type type)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Abp.Reflection.TypeFinder.Find(Func`2 predicate)
+   at Abp.AutoMapper.AbpAutoMapperModule.FindAndAutoMapTypes(IMapperConfigurationExpression configuration)
+   at Abp.AutoMapper.AbpAutoMapperModule.<CreateMappings>b__6_0(IMapperConfigurationExpression configuration)
+   at AutoMapper.MapperConfiguration.Build(Action`1 configure)
+   at AutoMapper.Mapper.Initialize(Action`1 config)
+   at Abp.AutoMapper.AbpAutoMapperModule.CreateMappings()
+   at Abp.AutoMapper.AbpAutoMapperModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+
+System.IO.FileLoadException: Could not load file or assembly 'System.ComponentModel.Annotations, Version=4.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.ComponentModel.Annotations, Version=4.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' ---> System.IO.FileLoadException: Could not load file or assembly 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+File name: 'System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'
+
+=== Pre-bind state information ===
+LOG: DisplayName = System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/
+LOG: Initial PrivatePath = C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\bin
+Calling assembly : Abp, Version=4.4.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\yi.liu\Workspace\Playground\aspnetboilerplate-samples\SimpleTaskSystem\SimpleTaskSystem.WebSpaAngular\web.config
+LOG: Using host configuration file: \\Mac\Home\Documents\IISExpress\config\aspnet.config
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Redirect found in application configuration file: 4.2.0.0 redirected to 4.5.0.0.
+LOG: Post-policy reference: System.ComponentModel.Annotations, Version=4.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.ComponentModel.Annotations.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/vs/66ac4428/f25800eb/System.ComponentModel.Annotations/System.ComponentModel.Annotations.DLL.
+LOG: Attempting download of new URL file:///C:/Users/yi.liu/Workspace/Playground/aspnetboilerplate-samples/SimpleTaskSystem/SimpleTaskSystem.WebSpaAngular/bin/System.ComponentModel.Annotations.DLL.
+WRN: Comparing the assembly name resulted in the mismatch: Minor Version
+ERR: Failed to complete setup of assembly (hr = 0x80131040). Probing terminated.
+
+   at System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   at System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly& lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.IsCustomAttributeDefined(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Int32 attributeCtorToken, Boolean mustBeInheritable)
+   at System.Reflection.CustomAttribute.IsDefined(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.RuntimeType.IsDefined(Type attributeType, Boolean inherit)
+   at System.Attribute.IsDefined(MemberInfo element, Type attributeType, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.IsDefined(MemberInfo element, Type attributeType)
+   at Abp.AutoMapper.AbpAutoMapperModule.<>c.<FindAndAutoMapTypes>b__7_0(Type type)
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Abp.Reflection.TypeFinder.Find(Func`2 predicate)
+   at Abp.AutoMapper.AbpAutoMapperModule.FindAndAutoMapTypes(IMapperConfigurationExpression configuration)
+   at Abp.AutoMapper.AbpAutoMapperModule.<CreateMappings>b__6_0(IMapperConfigurationExpression configuration)
+   at AutoMapper.MapperConfiguration.Build(Action`1 configure)
+   at AutoMapper.Mapper.Initialize(Action`1 config)
+   at Abp.AutoMapper.AbpAutoMapperModule.CreateMappings()
+   at Abp.AutoMapper.AbpAutoMapperModule.PostInitialize()
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+
+
+DEBUG 2019-03-28 23:16:30,523 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-28 23:16:30,533 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2019-03-28 23:16:30,538 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.WebSpaAngular.SimpleTaskSystemWebModule, SimpleTaskSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:16:30,539 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemDataModule, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:16:30,539 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemCoreModule, SimpleTaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:16:30,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:16:30,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:16:30,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:16:30,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemWebApiModule, SimpleTaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:16:30,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:16:30,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:16:30,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:16:30,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemApplicationModule, SimpleTaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:16:30,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:16:30,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:16:30,543 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2019-03-28 23:16:30,779 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem.EntityFramework.SimpleTaskSystemDbContext, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:16:32,242 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-28 23:16:32,272 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-28 23:16:32,273 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-28 23:16:32,274 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem
+DEBUG 2019-03-28 23:16:32,399 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-28 23:16:32,418 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.Tasks.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2019-03-28 23:16:32,419 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+DEBUG 2019-03-28 23:16:32,464 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2019-03-28 23:16:32,464 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+WARN  2019-03-28 23:16:37,424 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2019-03-28 23:16:37,473 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2019-03-28 23:19:25,619 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-28 23:19:25,633 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2019-03-28 23:19:25,639 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.WebSpaAngular.SimpleTaskSystemWebModule, SimpleTaskSystem.WebSpaAngular, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:19:25,641 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemDataModule, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:19:25,641 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemCoreModule, SimpleTaskSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:19:25,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:19:25,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:19:25,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:19:25,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemWebApiModule, SimpleTaskSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:19:25,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:19:25,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:19:25,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:19:25,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem.SimpleTaskSystemApplicationModule, SimpleTaskSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:19:25,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:19:25,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:19:25,646 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2019-03-28 23:19:25,912 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem.EntityFramework.SimpleTaskSystemDbContext, SimpleTaskSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-28 23:19:27,432 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-28 23:19:27,454 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-28 23:19:27,465 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-28 23:19:27,466 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem
+DEBUG 2019-03-28 23:19:27,614 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-28 23:19:27,637 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.Tasks.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2019-03-28 23:19:27,638 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+DEBUG 2019-03-28 23:19:27,691 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2019-03-28 23:19:27,692 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+WARN  2019-03-28 23:19:31,914 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2019-03-28 23:19:31,943 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+INFO  2019-03-28 23:19:48,087 [10   ] SimpleTaskSystem.Tasks.TaskAppService    - Creating a task for input: [CreateTaskInput > AssignedPersonId = 2, Description = jji]
