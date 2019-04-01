@@ -27,6 +27,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\AspNetStack\System.Net.Http.Formatting\System.Net.Http.Formatting.csproj" />
+    <ProjectReference Include="..\..\AspNetStack\System.Web.Http.WebHost\System.Web.Http.WebHost.csproj" />
+    <ProjectReference Include="..\..\AspNetStack\System.Web.Http\System.Web.Http.csproj" />
     <ProjectReference Include="..\Abp.Web\Abp.Web.csproj" />
   </ItemGroup>
 
@@ -36,10 +39,6 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Transactions" />
     <Reference Include="System.Web" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.3" />
   </ItemGroup>
 
 </Project>

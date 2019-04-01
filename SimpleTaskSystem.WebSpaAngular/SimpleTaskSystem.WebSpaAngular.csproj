@@ -151,10 +151,6 @@
     </Reference>
     <Reference Include="System.Net" />
     <Reference Include="System.Net.Http" />
-    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
-    </Reference>
     <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.4.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
@@ -178,10 +174,6 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Transactions" />
-    <Reference Include="System.Web.Cors, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.3\lib\net45\System.Web.Cors.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -192,18 +184,6 @@
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Http.Cors, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.3\lib\net45\System.Web.Http.Cors.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -1209,7 +1189,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Scripts\sweetalert\sweet-alert.scss" />
     <Content Include="Scripts\version.json" />
@@ -1260,6 +1242,26 @@
     <ProjectReference Include="..\ABP\Abp\Abp.csproj">
       <Project>{ac0ba4c5-4daf-4b4b-ad6f-5cbbce9174f2}</Project>
       <Name>Abp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AspNetStack\System.Net.Http.Formatting\System.Net.Http.Formatting.csproj">
+      <Project>{668e9021-ce84-49d9-98fb-df125a9fcdb0}</Project>
+      <Name>System.Net.Http.Formatting</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AspNetStack\System.Web.Cors\System.Web.Cors.csproj">
+      <Project>{43c1b979-d593-4a32-bb3a-4316f1c66d66}</Project>
+      <Name>System.Web.Cors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AspNetStack\System.Web.Http.Cors\System.Web.Http.Cors.csproj">
+      <Project>{25def6f6-7f99-4eb7-91ed-5181a346afe1}</Project>
+      <Name>System.Web.Http.Cors</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AspNetStack\System.Web.Http.WebHost\System.Web.Http.WebHost.csproj">
+      <Project>{a0187bc2-8325-4bb2-8697-7f955cf4173e}</Project>
+      <Name>System.Web.Http.WebHost</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AspNetStack\System.Web.Http\System.Web.Http.csproj">
+      <Project>{ddc1ce0c-486e-4e35-bb3b-eab61f8f9440}</Project>
+      <Name>System.Web.Http</Name>
     </ProjectReference>
     <ProjectReference Include="..\SimpleTaskSystem.Core\SimpleTaskSystem.Core.csproj">
       <Project>{17298EA0-AF73-4F30-B6F1-2066100D7D74}</Project>
